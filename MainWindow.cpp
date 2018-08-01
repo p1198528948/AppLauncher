@@ -49,3 +49,9 @@ void MainWindow::removeCustomItem(QListWidgetItem *item)
 	ui->listWidget->takeItem(idx);
 	delete item;
 }
+
+void MainWindow::on_pushButton_demo_clicked()
+{
+    CustomMadeListViewDialog cmd(this);
+    cmd.exec();
+}

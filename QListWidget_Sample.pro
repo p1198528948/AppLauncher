@@ -15,12 +15,18 @@ TEMPLATE = app
 SOURCES += main.cpp\
         MainWindow.cpp \
     AddItemWidget.cpp \
-    CustomWidget.cpp
+    CustomWidget.cpp \
+    custommadelistviewdialog.cpp \
+    appiconwidget.cpp
 
 HEADERS  += MainWindow.h \
     AddItemWidget.h \
-    CustomWidget.h
+    CustomWidget.h \
+    custommadelistviewdialog.h \
+    appiconwidget.h
 
 FORMS    += MainWindow.ui \
     AddItemWidget.ui \
-    CustomWidget.ui
+    CustomWidget.ui \
+    custommadelistviewdialog.ui \
+    appiconwidget.ui

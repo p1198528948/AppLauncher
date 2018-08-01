@@ -15,5 +15,6 @@ AddItemWidget::~AddItemWidget()
 
 void AddItemWidget::on_btnAddItem_clicked()
 {
+    // 发送信号
 	emit itemAdd(ui->lineEdit->text());
 }
