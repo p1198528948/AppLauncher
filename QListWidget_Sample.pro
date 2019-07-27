@@ -17,16 +17,22 @@ SOURCES += main.cpp\
     AddItemWidget.cpp \
     CustomWidget.cpp \
     custommadelistviewdialog.cpp \
-    appiconwidget.cpp
+    appiconwidget.cpp \
+    upmdialog.cpp
 
 HEADERS  += MainWindow.h \
     AddItemWidget.h \
     CustomWidget.h \
     custommadelistviewdialog.h \
-    appiconwidget.h
+    appiconwidget.h \
+    upmdialog.h
 
 FORMS    += MainWindow.ui \
     AddItemWidget.ui \
     CustomWidget.ui \
     custommadelistviewdialog.ui \
-    appiconwidget.ui
+    appiconwidget.ui \
+    upmdialog.ui
+
+RESOURCES += \
+    res.qrc

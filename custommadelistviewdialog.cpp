@@ -11,7 +11,7 @@ CustomMadeListViewDialog::CustomMadeListViewDialog(QWidget *parent) :
     // 初始化 图标对应路径
     icons.insert
             (tr("支付宝"),
-                 "D:/CProject/QListWidget_Sample-master/res/Alipay.png");
+                 ":/res/Alipay.png");
 
     // 设置排版样式
     ui->listWidget->setViewMode(QListView::IconMode);
